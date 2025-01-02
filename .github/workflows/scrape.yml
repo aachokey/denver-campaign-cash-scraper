@@ -26,6 +26,32 @@ jobs:
           -H 'sec-gpc: 1' \
           -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36' \
           --data-raw '{"ballotIssue":null,"candidateName":null,"committeeName":null,"committeePosition":null,"contributionsFrom":null,"contributionsFromCityStateCode":null,"contributionsToIds":null,"electionCycleIds":null,"isBallotIssue":false,"isCandidate":false,"ballotIssueId":null,"candidateOfficeSoughtId":null,"transactionFromDate":null,"transactionToDate":null,"transactionSubTypeId":null,"pageNum":1,"pageSize":10}' | jq > denver-contributions-summary.json
+      - name: Store total records count
+        id: read_json
+        run: |
+          content=$(cat ./denver-contributions-summary.json)
+          # Extract the value and handle possible spaces/special characters
+          echo "record_count=$(echo $content | jq -r .totalContributionCount)" >> $TOTAL_RECORDS
+          echo 'Fetching ${{env.record_count}} records!'
+      - name: Fetch transactions
+        run: |-
+          curl 'https://denver.maplight.com/api/Transaction/SearchContributionTransactions' \
+            -H 'accept: application/json, text/plain, */*' \
+            -H 'accept-language: en-US,en;q=0.9' \
+            -H 'content-type: application/json' \
+            -H 'dnt: 1' \
+            -H 'origin: https://denver.maplight.com' \
+            -H 'priority: u=1, i' \
+            -H 'referer: https://denver.maplight.com/public/transaction-search' \
+            -H 'sec-ch-ua: "Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"' \
+            -H 'sec-ch-ua-mobile: ?0' \
+            -H 'sec-ch-ua-platform: "macOS"' \
+            -H 'sec-fetch-dest: empty' \
+            -H 'sec-fetch-mode: cors' \
+            -H 'sec-fetch-site: same-origin' \
+            -H 'sec-gpc: 1' \
+            -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36' \
+            --data-raw '{"ballotIssue":null,"candidateName":null,"committeeName":null,"committeePosition":null,"contributionsFrom":null,"contributionsFromCityStateCode":null,"contributionsToIds":null,"electionCycleIds":null,"isBallotIssue":false,"isCandidate":false,"ballotIssueId":null,"candidateOfficeSoughtId":null,"transactionFromDate":null,"transactionToDate":null,"transactionSubTypeId":null,"pageNum":1,"pageSize":${{env.record_count}}' > denver-contributions.csv
       - name: Commit and push if it changed
         run: |-
           git config user.name "Automated"
