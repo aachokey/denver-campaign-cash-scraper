@@ -31,7 +31,7 @@ jobs:
         run: |
           content=$(cat ./denver-contributions-summary.json)
           # Extract the value and handle possible spaces/special characters
-          echo "record_count=$(echo $content | jq -r .totalContributionCount)" >> $TOTAL_RECORDS
+          echo "record_count=$(echo $content | jq .totalContributionCount)" >> $GITHUB_ENV
           echo 'Fetching ${{env.record_count}} records!'
       - name: Fetch transactions
         run: |-
