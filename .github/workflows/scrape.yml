@@ -31,8 +31,8 @@ jobs:
         run: |
           content=$(cat ./denver-contributions-summary.json)
           # Extract the value and handle possible spaces/special characters
-          echo "record_count=$(echo $content | jq .totalContributionCount)" >> $GITHUB_ENV
-          echo 'Fetching ${{env.record_count}} records!'
+          echo "TOTAL_RECORDS=$(echo $content | jq .totalContributionCount)" >> $GITHUB_ENV
+          echo 'Fetching $TOTAL_RECORDS records!'
       - name: Fetch transactions
         run: |-
           curl 'https://denver.maplight.com/api/Transaction/SearchContributionTransactions' \
@@ -51,7 +51,7 @@ jobs:
             -H 'sec-fetch-site: same-origin' \
             -H 'sec-gpc: 1' \
             -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36' \
-            --data-raw '{"ballotIssue":null,"candidateName":null,"committeeName":null,"committeePosition":null,"contributionsFrom":null,"contributionsFromCityStateCode":null,"contributionsToIds":null,"electionCycleIds":null,"isBallotIssue":false,"isCandidate":false,"ballotIssueId":null,"candidateOfficeSoughtId":null,"transactionFromDate":null,"transactionToDate":null,"transactionSubTypeId":null,"pageNum":1,"pageSize":${{env.record_count}}' > denver-contributions.csv
+            --data-raw '{"ballotIssue":null,"candidateName":null,"committeeName":null,"committeePosition":null,"contributionsFrom":null,"contributionsFromCityStateCode":null,"contributionsToIds":null,"electionCycleIds":null,"isBallotIssue":false,"isCandidate":false,"ballotIssueId":null,"candidateOfficeSoughtId":null,"transactionFromDate":null,"transactionToDate":null,"transactionSubTypeId":null,"pageNum":1,"pageSize":$TOTAL_RECORDS' > denver-contributions.csv
       - name: Commit and push if it changed
         run: |-
           git config user.name "Automated"
