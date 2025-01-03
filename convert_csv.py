@@ -14,7 +14,7 @@ def main():
     
     contribution_data = contribution_data["searchContributionTransactions"]
     
-    with open(OUTPUT_FILE) as outfile:
+    with open(OUTPUT_FILE, "w") as outfile:
         fieldnames = contribution_data[0].keys()
         writer = csv.DictWriter(outfile, fieldnames=fieldnames)
         writer.writeheader()
