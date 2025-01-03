@@ -52,6 +52,16 @@ jobs:
             -H 'sec-gpc: 1' \
             -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36' \
             --data-raw '{"ballotIssue":null,"candidateName":null,"committeeName":null,"committeePosition":null,"contributionsFrom":null,"contributionsFromCityStateCode":null,"contributionsToIds":null,"electionCycleIds":null,"isBallotIssue":false,"isCandidate":false,"ballotIssueId":null,"candidateOfficeSoughtId":null,"transactionFromDate":null,"transactionToDate":null,"transactionSubTypeId":null,"pageNum":1,"pageSize":"'$TOTAL_RECORDS'"}' > denver-contributions.json
+      - name: Set up python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9' # install the python version needed
+      - name: Install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run python script
+        run: python convert_csv.py
       - name: Commit and push if it changed
         run: |-
           git config user.name "Automated"
