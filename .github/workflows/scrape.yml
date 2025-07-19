@@ -1,6 +1,8 @@
 name: Denver campaign finance scraper
 run-name: ${{ github.actor }} is scraping Denver data with GitHub Actions 🚀
-on: [push]
+on:
+  schedule:
+    - cron: "0 6 * * *"
 jobs:
   scrape:
     runs-on: ubuntu-latest
