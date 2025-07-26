@@ -1,11 +1,11 @@
 {
-  "totalContributionAmount": 74715298.561000,
-  "totalContributionCount": 111831,
+  "totalContributionAmount": 74715822.561000,
+  "totalContributionCount": 111845,
   "employeeContributions": {
-    "candidates": 15698306.455000,
+    "candidates": 15698830.455000,
     "ballotMeasures": 5441333.910000,
     "otherCommittees": 5820542.050000,
-    "total": 26960182.415000
+    "total": 26960706.415000
   },
   "organizationalContributions": {
     "candidates": 11627854.770000,
@@ -15,7 +15,7 @@
   },
   "contributionTypes": {
     "qualifyingContributions": 1370368.480000,
-    "monetaryContributions": 62837404.975000,
+    "monetaryContributions": 62837928.975000,
     "inKindContributions": 2812053.186000,
     "fairElectionFundDisbursements": 7695471.920000
   },
@@ -327,39 +327,6 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 258935,
-      "transactionType": "Contribution",
-      "transactionSubType": "In-Kind",
-      "recipientName": " ",
-      "recipientCommitteeName": "Denver Kids vs Big Tobacco",
-      "recipientCommitteeId": 723,
-      "officeSought": null,
-      "district": null,
-      "ballotIssue": "Proposed Referendum: Prohibit Sale of Flavored Tobacco Products",
-      "contributorName": "Tobacco-Free Kids Action Fund",
-      "contributorId": 154254,
-      "amount": 15625.000000,
-      "date": "2025-05-31T06:00:00",
-      "contributorEmployer": "",
-      "contributorOccupation": "",
-      "contributorCity": "Washington",
-      "contributorStateCode": "DC",
-      "contactTypeId": 2,
-      "committeeTypeId": 8,
-      "transactionSubTypeId": 2,
-      "filerTypeId": 3,
-      "zipCode": "20005",
-      "address1": "1400 I Street, NW",
-      "address2": "Suite 1200",
-      "contributorFirstName": "",
-      "contributorLastName": "",
-      "committeeType": "Denver Kids vs Big Tobacco",
-      "orgName": "Tobacco-Free Kids Action Fund",
-      "contributorMiddleName": null,
-      "txnPurpose": "Communications, Strategy, Grassroots Consulting",
-      "fefTransaction": false
-    },
-    {
       "transactionId": 258933,
       "transactionType": "Contribution",
       "transactionSubType": "In-Kind",
@@ -391,7 +358,40 @@
       "contributorMiddleName": null,
       "txnPurpose": "Employee Services",
       "fefTransaction": false
+    },
+    {
+      "transactionId": 258934,
+      "transactionType": "Contribution",
+      "transactionSubType": "In-Kind",
+      "recipientName": " ",
+      "recipientCommitteeName": "Denver Kids vs Big Tobacco",
+      "recipientCommitteeId": 723,
+      "officeSought": null,
+      "district": null,
+      "ballotIssue": "Proposed Referendum: Prohibit Sale of Flavored Tobacco Products",
+      "contributorName": "Tobacco-Free Kids Action Fund",
+      "contributorId": 154254,
+      "amount": 1407.430000,
+      "date": "2025-05-31T06:00:00",
+      "contributorEmployer": "",
+      "contributorOccupation": "",
+      "contributorCity": "Washington",
+      "contributorStateCode": "DC",
+      "contactTypeId": 2,
+      "committeeTypeId": 8,
+      "transactionSubTypeId": 2,
+      "filerTypeId": 3,
+      "zipCode": "20005",
+      "address1": "1400 I Street, NW",
+      "address2": "Suite 1200",
+      "contributorFirstName": "",
+      "contributorLastName": "",
+      "committeeType": "Denver Kids vs Big Tobacco",
+      "orgName": "Tobacco-Free Kids Action Fund",
+      "contributorMiddleName": null,
+      "txnPurpose": "Campaign Kick Off Expenses",
+      "fefTransaction": false
     }
   ],
-  "totalRecords": 111831
+  "totalRecords": 111845
 }
