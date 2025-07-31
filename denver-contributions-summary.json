@@ -1,6 +1,6 @@
 {
-  "totalContributionAmount": 74715877.556000,
-  "totalContributionCount": 111846,
+  "totalContributionAmount": 78753136.696000,
+  "totalContributionCount": 111848,
   "employeeContributions": {
     "candidates": 15698885.450000,
     "ballotMeasures": 5441333.910000,
@@ -10,19 +10,19 @@
   "organizationalContributions": {
     "candidates": 11627854.770000,
     "ballotMeasures": 23243039.406000,
-    "otherCommittees": 10897010.060000,
-    "total": 45767904.236000
+    "otherCommittees": 14934269.200000,
+    "total": 49805163.376000
   },
   "contributionTypes": {
     "qualifyingContributions": 1370368.480000,
-    "monetaryContributions": 62837983.970000,
+    "monetaryContributions": 66875243.110000,
     "inKindContributions": 2812053.186000,
     "fairElectionFundDisbursements": 7695471.920000
   },
   "committees": [
     {
       "name": "CWA-COPE PCC",
-      "total": 7631365.180000
+      "total": 11668624.320000
     },
     {
       "name": "Hancock for Denver",
@@ -62,6 +62,39 @@
     }
   ],
   "searchContributionTransactions": [
+    {
+      "transactionId": 259232,
+      "transactionType": "Contribution",
+      "transactionSubType": "Monetary",
+      "recipientName": " ",
+      "recipientCommitteeName": "CWA-COPE PCC",
+      "recipientCommitteeId": 295,
+      "officeSought": null,
+      "district": null,
+      "ballotIssue": null,
+      "contributorName": "CWA COPE PCC",
+      "contributorId": 45246,
+      "amount": 1813791.330000,
+      "date": "2025-06-30T06:00:00",
+      "contributorEmployer": "",
+      "contributorOccupation": "",
+      "contributorCity": "Washington",
+      "contributorStateCode": "DC",
+      "contactTypeId": 2,
+      "committeeTypeId": 3,
+      "transactionSubTypeId": 1,
+      "filerTypeId": 3,
+      "zipCode": "20001",
+      "address1": "501 Third St NW",
+      "address2": null,
+      "contributorFirstName": null,
+      "contributorLastName": null,
+      "committeeType": "CWA-COPE PCC",
+      "orgName": "CWA COPE PCC",
+      "contributorMiddleName": null,
+      "txnPurpose": null,
+      "fefTransaction": false
+    },
     {
       "transactionId": 258961,
       "transactionType": "Contribution",
@@ -327,39 +360,6 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 258935,
-      "transactionType": "Contribution",
-      "transactionSubType": "In-Kind",
-      "recipientName": " ",
-      "recipientCommitteeName": "Denver Kids vs Big Tobacco",
-      "recipientCommitteeId": 723,
-      "officeSought": null,
-      "district": null,
-      "ballotIssue": "Proposed Referendum: Prohibit Sale of Flavored Tobacco Products",
-      "contributorName": "Tobacco-Free Kids Action Fund",
-      "contributorId": 154254,
-      "amount": 15625.000000,
-      "date": "2025-05-31T06:00:00",
-      "contributorEmployer": "",
-      "contributorOccupation": "",
-      "contributorCity": "Washington",
-      "contributorStateCode": "DC",
-      "contactTypeId": 2,
-      "committeeTypeId": 8,
-      "transactionSubTypeId": 2,
-      "filerTypeId": 3,
-      "zipCode": "20005",
-      "address1": "1400 I Street, NW",
-      "address2": "Suite 1200",
-      "contributorFirstName": "",
-      "contributorLastName": "",
-      "committeeType": "Denver Kids vs Big Tobacco",
-      "orgName": "Tobacco-Free Kids Action Fund",
-      "contributorMiddleName": null,
-      "txnPurpose": "Communications, Strategy, Grassroots Consulting",
-      "fefTransaction": false
-    },
-    {
       "transactionId": 258933,
       "transactionType": "Contribution",
       "transactionSubType": "In-Kind",
@@ -393,5 +393,5 @@
       "fefTransaction": false
     }
   ],
-  "totalRecords": 111846
+  "totalRecords": 111848
 }
