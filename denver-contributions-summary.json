@@ -129,7 +129,7 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 259350,
+      "transactionId": 259349,
       "transactionType": "Contribution",
       "transactionSubType": "In-Kind",
       "recipientName": " ",
@@ -140,7 +140,7 @@
       "ballotIssue": "Proposed Referendum: Prohibit Sale of Flavored Tobacco Products",
       "contributorName": "Tobacco-Free Kids Action Fund",
       "contributorId": 154254,
-      "amount": 2550.000000,
+      "amount": 5763.240000,
       "date": "2025-07-31T06:00:00",
       "contributorEmployer": "",
       "contributorOccupation": "",
@@ -158,7 +158,7 @@
       "committeeType": "Denver Kids vs Big Tobacco",
       "orgName": "Tobacco-Free Kids Action Fund",
       "contributorMiddleName": null,
-      "txnPurpose": "Grassroots Outreach",
+      "txnPurpose": "Employee Services",
       "fefTransaction": false
     },
     {
@@ -195,7 +195,7 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 259349,
+      "transactionId": 259350,
       "transactionType": "Contribution",
       "transactionSubType": "In-Kind",
       "recipientName": " ",
@@ -206,7 +206,7 @@
       "ballotIssue": "Proposed Referendum: Prohibit Sale of Flavored Tobacco Products",
       "contributorName": "Tobacco-Free Kids Action Fund",
       "contributorId": 154254,
-      "amount": 5763.240000,
+      "amount": 2550.000000,
       "date": "2025-07-31T06:00:00",
       "contributorEmployer": "",
       "contributorOccupation": "",
@@ -224,7 +224,7 @@
       "committeeType": "Denver Kids vs Big Tobacco",
       "orgName": "Tobacco-Free Kids Action Fund",
       "contributorMiddleName": null,
-      "txnPurpose": "Employee Services",
+      "txnPurpose": "Grassroots Outreach",
       "fefTransaction": false
     },
     {
