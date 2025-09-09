@@ -1,22 +1,22 @@
 {
-  "totalContributionAmount": 79333837.486000,
-  "totalContributionCount": 112025,
+  "totalContributionAmount": 79330680.286000,
+  "totalContributionCount": 112055,
   "employeeContributions": {
     "candidates": 15702194.570000,
-    "ballotMeasures": 5540208.470000,
+    "ballotMeasures": 5541999.590000,
     "otherCommittees": 5820542.050000,
-    "total": 27062945.090000
+    "total": 27064736.210000
   },
   "organizationalContributions": {
     "candidates": 11627854.770000,
-    "ballotMeasures": 23721556.516000,
+    "ballotMeasures": 23716608.196000,
     "otherCommittees": 14934269.200000,
-    "total": 50283680.486000
+    "total": 50278732.166000
   },
   "contributionTypes": {
     "qualifyingContributions": 1370368.480000,
-    "monetaryContributions": 67304927.210000,
-    "inKindContributions": 2963069.876000,
+    "monetaryContributions": 67306718.330000,
+    "inKindContributions": 2958121.556000,
     "fairElectionFundDisbursements": 7695471.920000
   },
   "committees": [
@@ -96,7 +96,7 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 259470,
+      "transactionId": 259476,
       "transactionType": "Contribution",
       "transactionSubType": "Monetary",
       "recipientName": " ",
@@ -162,7 +162,7 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 259505,
+      "transactionId": 259470,
       "transactionType": "Contribution",
       "transactionSubType": "Monetary",
       "recipientName": " ",
@@ -195,7 +195,7 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 259476,
+      "transactionId": 259505,
       "transactionType": "Contribution",
       "transactionSubType": "Monetary",
       "recipientName": " ",
@@ -294,7 +294,7 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 259497,
+      "transactionId": 259520,
       "transactionType": "Contribution",
       "transactionSubType": "Monetary",
       "recipientName": " ",
@@ -304,11 +304,11 @@
       "district": null,
       "ballotIssue": "Proposed 2026 Initiated Ordinance: Foie Gras Ban",
       "contributorName": "Dani Withaar",
-      "contributorId": 154536,
-      "amount": 150.000000,
+      "contributorId": 154545,
+      "amount": 10.000000,
       "date": "2025-08-31T06:00:00",
-      "contributorEmployer": "Unknown",
-      "contributorOccupation": "Unknown",
+      "contributorEmployer": "Pro animal future",
+      "contributorOccupation": "Digital strategy",
       "contributorCity": "Boulder",
       "contributorStateCode": "CO",
       "contactTypeId": 1,
@@ -316,8 +316,8 @@
       "transactionSubTypeId": 1,
       "filerTypeId": 3,
       "zipCode": "80305",
-      "address1": "3795 Table Mesa Drive",
-      "address2": "9B",
+      "address1": "3795 Table Mesa Dr.",
+      "address2": "Unit 9B",
       "contributorFirstName": "Dani",
       "contributorLastName": "Withaar",
       "committeeType": "Pro-Animal Colorado",
@@ -360,7 +360,7 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 259541,
+      "transactionId": 259497,
       "transactionType": "Contribution",
       "transactionSubType": "Monetary",
       "recipientName": " ",
@@ -370,11 +370,11 @@
       "district": null,
       "ballotIssue": "Proposed 2026 Initiated Ordinance: Foie Gras Ban",
       "contributorName": "Dani Withaar",
-      "contributorId": 154552,
-      "amount": 25.000000,
+      "contributorId": 154536,
+      "amount": 150.000000,
       "date": "2025-08-31T06:00:00",
-      "contributorEmployer": "Pax Fauna",
-      "contributorOccupation": "Marketing",
+      "contributorEmployer": "Unknown",
+      "contributorOccupation": "Unknown",
       "contributorCity": "Boulder",
       "contributorStateCode": "CO",
       "contactTypeId": 1,
@@ -382,8 +382,8 @@
       "transactionSubTypeId": 1,
       "filerTypeId": 3,
       "zipCode": "80305",
-      "address1": "3795 Table Mesa Dr.",
-      "address2": "",
+      "address1": "3795 Table Mesa Drive",
+      "address2": "9B",
       "contributorFirstName": "Dani",
       "contributorLastName": "Withaar",
       "committeeType": "Pro-Animal Colorado",
@@ -393,5 +393,5 @@
       "fefTransaction": false
     }
   ],
-  "totalRecords": 112025
+  "totalRecords": 112055
 }
