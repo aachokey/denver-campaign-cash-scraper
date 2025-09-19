@@ -96,7 +96,7 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 259470,
+      "transactionId": 259505,
       "transactionType": "Contribution",
       "transactionSubType": "Monetary",
       "recipientName": " ",
@@ -129,7 +129,7 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 259505,
+      "transactionId": 259519,
       "transactionType": "Contribution",
       "transactionSubType": "Monetary",
       "recipientName": " ",
@@ -195,7 +195,7 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 259519,
+      "transactionId": 259470,
       "transactionType": "Contribution",
       "transactionSubType": "Monetary",
       "recipientName": " ",
@@ -360,7 +360,7 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 259497,
+      "transactionId": 259541,
       "transactionType": "Contribution",
       "transactionSubType": "Monetary",
       "recipientName": " ",
@@ -370,11 +370,11 @@
       "district": null,
       "ballotIssue": "Proposed 2026 Initiated Ordinance: Foie Gras Ban",
       "contributorName": "Dani Withaar",
-      "contributorId": 154536,
-      "amount": 150.000000,
+      "contributorId": 154552,
+      "amount": 25.000000,
       "date": "2025-08-31T06:00:00",
-      "contributorEmployer": "Unknown",
-      "contributorOccupation": "Unknown",
+      "contributorEmployer": "Pax Fauna",
+      "contributorOccupation": "Marketing",
       "contributorCity": "Boulder",
       "contributorStateCode": "CO",
       "contactTypeId": 1,
@@ -382,8 +382,8 @@
       "transactionSubTypeId": 1,
       "filerTypeId": 3,
       "zipCode": "80305",
-      "address1": "3795 Table Mesa Drive",
-      "address2": "9B",
+      "address1": "3795 Table Mesa Dr.",
+      "address2": "",
       "contributorFirstName": "Dani",
       "contributorLastName": "Withaar",
       "committeeType": "Pro-Animal Colorado",
