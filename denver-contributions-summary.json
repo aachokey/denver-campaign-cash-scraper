@@ -1,22 +1,22 @@
 {
-  "totalContributionAmount": 79345739.196000,
-  "totalContributionCount": 112140,
+  "totalContributionAmount": 81936546.076000,
+  "totalContributionCount": 112233,
   "employeeContributions": {
     "candidates": 15702194.570000,
-    "ballotMeasures": 5552058.500000,
+    "ballotMeasures": 7183406.160000,
     "otherCommittees": 5820542.050000,
-    "total": 27074795.120000
+    "total": 28706142.780000
   },
   "organizationalContributions": {
     "candidates": 11627854.770000,
-    "ballotMeasures": 23721608.196000,
+    "ballotMeasures": 24681067.416000,
     "otherCommittees": 14934269.200000,
-    "total": 50283732.166000
+    "total": 51243191.386000
   },
   "contributionTypes": {
     "qualifyingContributions": 1370368.480000,
-    "monetaryContributions": 67321777.240000,
-    "inKindContributions": 2958121.556000,
+    "monetaryContributions": 69676629.400000,
+    "inKindContributions": 3194076.276000,
     "fairElectionFundDisbursements": 7695471.920000
   },
   "committees": [
@@ -53,12 +53,12 @@
       "total": 2016263.630000
     },
     {
-      "name": "A Smart Deal for Denver",
-      "total": 1606692.320000
+      "name": "Denver Kids vs Big Tobacco",
+      "total": 2011821.420000
     },
     {
-      "name": "Stop the Ban. Protect Jobs.",
-      "total": 1568120.580000
+      "name": "A Smart Deal for Denver",
+      "total": 1606692.320000
     }
   ],
   "searchContributionTransactions": [
@@ -96,7 +96,7 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 259770,
+      "transactionId": 259801,
       "transactionType": "Contribution",
       "transactionSubType": "Monetary",
       "recipientName": " ",
@@ -162,39 +162,6 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 259802,
-      "transactionType": "Contribution",
-      "transactionSubType": "Monetary",
-      "recipientName": " ",
-      "recipientCommitteeName": "Pro-Animal Colorado",
-      "recipientCommitteeId": 732,
-      "officeSought": null,
-      "district": null,
-      "ballotIssue": "Proposed 2026 Initiated Ordinance: Foie Gras Ban",
-      "contributorName": "Amit Dhuleshia",
-      "contributorId": 154716,
-      "amount": 57.570000,
-      "date": "2025-09-30T06:00:00",
-      "contributorEmployer": "unknown",
-      "contributorOccupation": "unknown",
-      "contributorCity": "San Diego",
-      "contributorStateCode": "CA",
-      "contactTypeId": 1,
-      "committeeTypeId": 8,
-      "transactionSubTypeId": 1,
-      "filerTypeId": 3,
-      "zipCode": "92103",
-      "address1": "2665 5Th Ave, Unit 308",
-      "address2": null,
-      "contributorFirstName": "Amit",
-      "contributorLastName": "Dhuleshia",
-      "committeeType": "Pro-Animal Colorado",
-      "orgName": null,
-      "contributorMiddleName": null,
-      "txnPurpose": null,
-      "fefTransaction": false
-    },
-    {
       "transactionId": 259799,
       "transactionType": "Contribution",
       "transactionSubType": "Monetary",
@@ -228,7 +195,7 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 259801,
+      "transactionId": 259790,
       "transactionType": "Contribution",
       "transactionSubType": "Monetary",
       "recipientName": " ",
@@ -261,7 +228,40 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 259790,
+      "transactionId": 259802,
+      "transactionType": "Contribution",
+      "transactionSubType": "Monetary",
+      "recipientName": " ",
+      "recipientCommitteeName": "Pro-Animal Colorado",
+      "recipientCommitteeId": 732,
+      "officeSought": null,
+      "district": null,
+      "ballotIssue": "Proposed 2026 Initiated Ordinance: Foie Gras Ban",
+      "contributorName": "Amit Dhuleshia",
+      "contributorId": 154716,
+      "amount": 57.570000,
+      "date": "2025-09-30T06:00:00",
+      "contributorEmployer": "unknown",
+      "contributorOccupation": "unknown",
+      "contributorCity": "San Diego",
+      "contributorStateCode": "CA",
+      "contactTypeId": 1,
+      "committeeTypeId": 8,
+      "transactionSubTypeId": 1,
+      "filerTypeId": 3,
+      "zipCode": "92103",
+      "address1": "2665 5Th Ave, Unit 308",
+      "address2": null,
+      "contributorFirstName": "Amit",
+      "contributorLastName": "Dhuleshia",
+      "committeeType": "Pro-Animal Colorado",
+      "orgName": null,
+      "contributorMiddleName": null,
+      "txnPurpose": null,
+      "fefTransaction": false
+    },
+    {
+      "transactionId": 259770,
       "transactionType": "Contribution",
       "transactionSubType": "Monetary",
       "recipientName": " ",
@@ -393,5 +393,5 @@
       "fefTransaction": false
     }
   ],
-  "totalRecords": 112140
+  "totalRecords": 112233
 }
