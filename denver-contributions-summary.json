@@ -1,6 +1,6 @@
 {
-  "totalContributionAmount": 75456906.456000,
-  "totalContributionCount": 112528,
+  "totalContributionAmount": 75481906.456000,
+  "totalContributionCount": 112529,
   "employeeContributions": {
     "candidates": 15702194.570000,
     "ballotMeasures": 10902166.500000,
@@ -9,13 +9,13 @@
   },
   "organizationalContributions": {
     "candidates": 11627854.770000,
-    "ballotMeasures": 26076112.776000,
+    "ballotMeasures": 26101112.776000,
     "otherCommittees": 5266686.770000,
-    "total": 42970654.316000
+    "total": 42995654.316000
   },
   "contributionTypes": {
     "qualifyingContributions": 1370562.500000,
-    "monetaryContributions": 62760626.500000,
+    "monetaryContributions": 62785626.500000,
     "inKindContributions": 3630245.536000,
     "fairElectionFundDisbursements": 7695471.920000
   },
@@ -54,7 +54,7 @@
     },
     {
       "name": "Vibrant Denver Bond",
-      "total": 1900938.000000
+      "total": 1925938.000000
     },
     {
       "name": "A Smart Deal for Denver",
@@ -91,6 +91,39 @@
       "contributorLastName": "",
       "committeeType": "Citizen Power!",
       "orgName": "Oriental Imports LLC",
+      "contributorMiddleName": null,
+      "txnPurpose": null,
+      "fefTransaction": false
+    },
+    {
+      "transactionId": 260343,
+      "transactionType": "Contribution",
+      "transactionSubType": "Monetary",
+      "recipientName": " ",
+      "recipientCommitteeName": "Vibrant Denver Bond",
+      "recipientCommitteeId": 726,
+      "officeSought": null,
+      "district": null,
+      "ballotIssue": "Ballot Issue 2A, Ballot Issue 2B, Ballot Issue 2C, Ballot Issue 2D, Ballot Issue 2E",
+      "contributorName": "United Airlines",
+      "contributorId": 155030,
+      "amount": 25000.000000,
+      "date": "2025-11-01T06:00:00",
+      "contributorEmployer": "",
+      "contributorOccupation": "",
+      "contributorCity": "Houston",
+      "contributorStateCode": "TX",
+      "contactTypeId": 2,
+      "committeeTypeId": 8,
+      "transactionSubTypeId": 1,
+      "filerTypeId": 3,
+      "zipCode": "77210",
+      "address1": "PO Box 4607",
+      "address2": "",
+      "contributorFirstName": "",
+      "contributorLastName": "",
+      "committeeType": "Vibrant Denver Bond",
+      "orgName": "United Airlines",
       "contributorMiddleName": null,
       "txnPurpose": null,
       "fefTransaction": false
@@ -358,40 +391,7 @@
       "contributorMiddleName": null,
       "txnPurpose": "",
       "fefTransaction": false
-    },
-    {
-      "transactionId": 260203,
-      "transactionType": "Contribution",
-      "transactionSubType": "Monetary",
-      "recipientName": " ",
-      "recipientCommitteeName": "Pro-Animal Colorado",
-      "recipientCommitteeId": 732,
-      "officeSought": null,
-      "district": null,
-      "ballotIssue": "Proposed 2026 Initiated Ordinance: Foie Gras Ban",
-      "contributorName": "Aidan Kankyoku",
-      "contributorId": 154954,
-      "amount": 400.000000,
-      "date": "2025-10-29T06:00:00",
-      "contributorEmployer": "Pax Fauna",
-      "contributorOccupation": "Researcher",
-      "contributorCity": "Boulder",
-      "contributorStateCode": "CO",
-      "contactTypeId": 1,
-      "committeeTypeId": 8,
-      "transactionSubTypeId": 1,
-      "filerTypeId": 3,
-      "zipCode": "80305",
-      "address1": "360 S 42nd St",
-      "address2": "",
-      "contributorFirstName": "Aidan",
-      "contributorLastName": "Kankyoku",
-      "committeeType": "Pro-Animal Colorado",
-      "orgName": null,
-      "contributorMiddleName": null,
-      "txnPurpose": "",
-      "fefTransaction": false
     }
   ],
-  "totalRecords": 112528
+  "totalRecords": 112529
 }
