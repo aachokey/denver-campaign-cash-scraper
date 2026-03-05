@@ -1,6 +1,6 @@
 {
-  "totalContributionAmount": 75370407.486000,
-  "totalContributionCount": 113298,
+  "totalContributionAmount": 75390407.486000,
+  "totalContributionCount": 113299,
   "employeeContributions": {
     "candidates": 15733018.960000,
     "ballotMeasures": 10977658.280000,
@@ -9,13 +9,13 @@
   },
   "organizationalContributions": {
     "candidates": 11628131.550000,
-    "ballotMeasures": 26235085.526000,
+    "ballotMeasures": 26255085.526000,
     "otherCommittees": 5009756.100000,
-    "total": 42872973.176000
+    "total": 42892973.176000
   },
   "contributionTypes": {
     "qualifyingContributions": 1370562.500000,
-    "monetaryContributions": 62591907.630000,
+    "monetaryContributions": 62611907.630000,
     "inKindContributions": 3712465.436000,
     "fairElectionFundDisbursements": 7695471.920000
   },
@@ -41,12 +41,12 @@
       "total": 2423442.720000
     },
     {
-      "name": "Kelly for Mayor",
-      "total": 2033560.990000
+      "name": "Vibrant Denver Bond",
+      "total": 2039463.000000
     },
     {
-      "name": "Vibrant Denver Bond",
-      "total": 2019463.000000
+      "name": "Kelly for Mayor",
+      "total": 2033560.990000
     },
     {
       "name": "Healing Denver",
@@ -62,6 +62,39 @@
     }
   ],
   "searchContributionTransactions": [
+    {
+      "transactionId": 262643,
+      "transactionType": "Contribution",
+      "transactionSubType": "Monetary",
+      "recipientName": " ",
+      "recipientCommitteeName": "Vibrant Denver Bond",
+      "recipientCommitteeId": 726,
+      "officeSought": null,
+      "district": null,
+      "ballotIssue": "Ballot Issue 2A, Ballot Issue 2B, Ballot Issue 2C, Ballot Issue 2D, Ballot Issue 2E",
+      "contributorName": "Davita",
+      "contributorId": 156141,
+      "amount": 20000.000000,
+      "date": "2026-02-02T07:00:00",
+      "contributorEmployer": "",
+      "contributorOccupation": "",
+      "contributorCity": "Federal Way",
+      "contributorStateCode": "WA",
+      "contactTypeId": 2,
+      "committeeTypeId": 8,
+      "transactionSubTypeId": 1,
+      "filerTypeId": 3,
+      "zipCode": "98001",
+      "address1": "PO Box 4328",
+      "address2": "",
+      "contributorFirstName": "",
+      "contributorLastName": "",
+      "committeeType": "Vibrant Denver Bond",
+      "orgName": "Davita",
+      "contributorMiddleName": null,
+      "txnPurpose": null,
+      "fefTransaction": false
+    },
     {
       "transactionId": 261994,
       "transactionType": "Contribution",
@@ -261,7 +294,7 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 261630,
+      "transactionId": 261571,
       "transactionType": "Contribution",
       "transactionSubType": "Monetary",
       "recipientName": " ",
@@ -271,11 +304,11 @@
       "district": null,
       "ballotIssue": "Proposed 2026 Initiated Ordinance: Foie Gras Ban",
       "contributorName": "Adam Castellani",
-      "contributorId": 155698,
-      "amount": 5.530000,
+      "contributorId": 155670,
+      "amount": 5.540000,
       "date": "2025-12-31T07:00:00",
-      "contributorEmployer": "County of Chester",
-      "contributorOccupation": "911 Dispatcher",
+      "contributorEmployer": "unknown",
+      "contributorOccupation": "unknown",
       "contributorCity": "Chesterbrook",
       "contributorStateCode": "PA",
       "contactTypeId": 1,
@@ -327,40 +360,7 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 261649,
-      "transactionType": "Contribution",
-      "transactionSubType": "Monetary",
-      "recipientName": " ",
-      "recipientCommitteeName": "Pro-Animal Colorado",
-      "recipientCommitteeId": 732,
-      "officeSought": null,
-      "district": null,
-      "ballotIssue": "Proposed 2026 Initiated Ordinance: Foie Gras Ban",
-      "contributorName": "Adam Castellani",
-      "contributorId": 155719,
-      "amount": 5.530000,
-      "date": "2025-12-31T07:00:00",
-      "contributorEmployer": "County of Chester",
-      "contributorOccupation": "911 Dispatcher",
-      "contributorCity": "Wayne",
-      "contributorStateCode": "PA",
-      "contactTypeId": 1,
-      "committeeTypeId": 8,
-      "transactionSubTypeId": 1,
-      "filerTypeId": 3,
-      "zipCode": "19087",
-      "address1": "403 Curtis Ct.",
-      "address2": null,
-      "contributorFirstName": "Adam",
-      "contributorLastName": "Castellani",
-      "committeeType": "Pro-Animal Colorado",
-      "orgName": null,
-      "contributorMiddleName": null,
-      "txnPurpose": null,
-      "fefTransaction": false
-    },
-    {
-      "transactionId": 261571,
+      "transactionId": 261659,
       "transactionType": "Contribution",
       "transactionSubType": "Monetary",
       "recipientName": " ",
@@ -393,5 +393,5 @@
       "fefTransaction": false
     }
   ],
-  "totalRecords": 113298
+  "totalRecords": 113299
 }
