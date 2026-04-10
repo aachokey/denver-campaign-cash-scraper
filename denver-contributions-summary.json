@@ -1,11 +1,11 @@
 {
-  "totalContributionAmount": 75446268.996000,
-  "totalContributionCount": 113817,
+  "totalContributionAmount": 75447248.996000,
+  "totalContributionCount": 113825,
   "employeeContributions": {
-    "candidates": 15763824.500000,
+    "candidates": 15764804.500000,
     "ballotMeasures": 10977816.180000,
     "otherCommittees": 5725408.050000,
-    "total": 32467048.730000
+    "total": 32468028.730000
   },
   "organizationalContributions": {
     "candidates": 11628250.620000,
@@ -15,7 +15,7 @@
   },
   "contributionTypes": {
     "qualifyingContributions": 1372562.500000,
-    "monetaryContributions": 62665650.070000,
+    "monetaryContributions": 62666630.070000,
     "inKindContributions": 3712584.506000,
     "fairElectionFundDisbursements": 7695471.920000
   },
@@ -360,38 +360,38 @@
       "fefTransaction": true
     },
     {
-      "transactionId": 263374,
+      "transactionId": 263854,
       "transactionType": "Contribution",
       "transactionSubType": "Monetary",
-      "recipientName": "Chris Hinds",
-      "recipientCommitteeName": "Chris for Denver 2027",
-      "recipientCommitteeId": 719,
-      "officeSought": "City Council",
-      "district": "10",
+      "recipientName": "Lisa Calderon",
+      "recipientCommitteeName": "Lisa Calderon For Denver",
+      "recipientCommitteeId": 753,
+      "officeSought": "Mayor",
+      "district": null,
       "ballotIssue": null,
-      "contributorName": "Heather Miller",
-      "contributorId": 156626,
-      "amount": 50.000000,
+      "contributorName": "Giona B",
+      "contributorId": 155864,
+      "amount": -5.000000,
       "date": "2026-03-31T06:00:00",
-      "contributorEmployer": "retired",
-      "contributorOccupation": "retired",
+      "contributorEmployer": "Cracker Barrel",
+      "contributorOccupation": "Cashier",
       "contributorCity": "Denver",
       "contributorStateCode": "CO",
       "contactTypeId": 1,
       "committeeTypeId": 1,
       "transactionSubTypeId": 1,
       "filerTypeId": 3,
-      "zipCode": "80202",
-      "address1": "1499 Blake St Apt 7G",
+      "zipCode": "80239",
+      "address1": "4382 Denmark Ct",
       "address2": null,
-      "contributorFirstName": "Heather",
-      "contributorLastName": "Miller",
-      "committeeType": "Chris for Denver 2027",
+      "contributorFirstName": "Giona",
+      "contributorLastName": "B",
+      "committeeType": "Lisa Calderon For Denver",
       "orgName": null,
       "contributorMiddleName": null,
-      "txnPurpose": null,
-      "fefTransaction": true
+      "txnPurpose": "Could not get full reporting information from donor",
+      "fefTransaction": false
     }
   ],
-  "totalRecords": 113817
+  "totalRecords": 113825
 }
