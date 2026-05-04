@@ -1,11 +1,11 @@
 {
-  "totalContributionAmount": 75533898.786000,
+  "totalContributionAmount": 75534033.786000,
   "totalContributionCount": 114958,
   "employeeContributions": {
-    "candidates": 15851454.290000,
+    "candidates": 15851589.290000,
     "ballotMeasures": 10977816.180000,
     "otherCommittees": 5725408.050000,
-    "total": 32554678.520000
+    "total": 32554813.520000
   },
   "organizationalContributions": {
     "candidates": 11628250.620000,
@@ -15,7 +15,7 @@
   },
   "contributionTypes": {
     "qualifyingContributions": 1372562.500000,
-    "monetaryContributions": 62753163.150000,
+    "monetaryContributions": 62753298.150000,
     "inKindContributions": 3712701.216000,
     "fairElectionFundDisbursements": 7695471.920000
   },
