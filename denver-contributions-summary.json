@@ -1,11 +1,11 @@
 {
-  "totalContributionAmount": 75542361.686000,
-  "totalContributionCount": 114968,
+  "totalContributionAmount": 75542636.686000,
+  "totalContributionCount": 114972,
   "employeeContributions": {
-    "candidates": 15851589.290000,
+    "candidates": 15851864.290000,
     "ballotMeasures": 10977974.080000,
     "otherCommittees": 5725408.050000,
-    "total": 32554971.420000
+    "total": 32555246.420000
   },
   "organizationalContributions": {
     "candidates": 11628250.620000,
@@ -15,7 +15,7 @@
   },
   "contributionTypes": {
     "qualifyingContributions": 1372562.500000,
-    "monetaryContributions": 62761626.050000,
+    "monetaryContributions": 62761901.050000,
     "inKindContributions": 3712701.216000,
     "fairElectionFundDisbursements": 7695471.920000
   },
@@ -360,38 +360,38 @@
       "fefTransaction": false
     },
     {
-      "transactionId": 265132,
+      "transactionId": 265326,
       "transactionType": "Contribution",
       "transactionSubType": "Monetary",
-      "recipientName": null,
-      "recipientCommitteeName": "Pro-Animal Colorado",
-      "recipientCommitteeId": 732,
-      "officeSought": null,
-      "district": null,
-      "ballotIssue": "Proposed 2026 Initiated Ordinance: Foie Gras Ban",
-      "contributorName": "Katherine Haynes",
-      "contributorId": 155151,
+      "recipientName": "Shannon Callahan",
+      "recipientCommitteeName": "Callahan for Council",
+      "recipientCommitteeId": 739,
+      "officeSought": "City Council",
+      "district": "6",
+      "ballotIssue": null,
+      "contributorName": "Justin Arrigo",
+      "contributorId": 156269,
       "amount": 20.000000,
-      "date": "2026-04-02T06:00:00",
-      "contributorEmployer": "Veterans Affairs",
-      "contributorOccupation": "Occupational Therapist",
-      "contributorCity": "Fort Collins",
-      "contributorStateCode": "CO",
+      "date": "2026-04-20T06:00:00",
+      "contributorEmployer": "Gallaudet University",
+      "contributorOccupation": "Manager",
+      "contributorCity": "Boynton Beach",
+      "contributorStateCode": "FL",
       "contactTypeId": 1,
-      "committeeTypeId": 8,
+      "committeeTypeId": 1,
       "transactionSubTypeId": 1,
       "filerTypeId": 3,
-      "zipCode": "80526",
-      "address1": "2707 Claremont Drive",
+      "zipCode": "33472",
+      "address1": "8863 Jaspers Dr",
       "address2": null,
-      "contributorFirstName": "Katherine",
-      "contributorLastName": "Haynes",
-      "committeeType": "Pro-Animal Colorado",
+      "contributorFirstName": "Justin",
+      "contributorLastName": "Arrigo",
+      "committeeType": "Callahan for Council",
       "orgName": null,
       "contributorMiddleName": null,
-      "txnPurpose": null,
+      "txnPurpose": "N/A",
       "fefTransaction": false
     }
   ],
-  "totalRecords": 114968
+  "totalRecords": 114972
 }
