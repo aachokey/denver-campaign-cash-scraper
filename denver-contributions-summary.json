@@ -1,22 +1,22 @@
 {
-  "totalContributionAmount": 75915707.356000,
-  "totalContributionCount": 118765,
+  "totalContributionAmount": 76491059.336000,
+  "totalContributionCount": 119378,
   "employeeContributions": {
-    "candidates": 16138058.750000,
-    "ballotMeasures": 10983194.160000,
+    "candidates": 16244465.290000,
+    "ballotMeasures": 10983402.520000,
     "otherCommittees": 5725408.050000,
-    "total": 32846660.960000
+    "total": 32953275.860000
   },
   "organizationalContributions": {
     "candidates": 11705140.750000,
-    "ballotMeasures": 26292800.526000,
+    "ballotMeasures": 26761537.606000,
     "otherCommittees": 5009756.100000,
-    "total": 43007697.376000
+    "total": 43476434.456000
   },
   "contributionTypes": {
-    "qualifyingContributions": 1382746.630000,
-    "monetaryContributions": 63047794.590000,
-    "inKindContributions": 3713059.216000,
+    "qualifyingContributions": 1385798.870000,
+    "monetaryContributions": 63616252.250000,
+    "inKindContributions": 3716901.296000,
     "fairElectionFundDisbursements": 7772106.920000
   },
   "committees": [
@@ -68,7 +68,7 @@
       "transactionSubType": "Monetary",
       "recipientName": "Whitney Traylor",
       "recipientCommitteeName": "Traylor for Denver",
-      "recipientCommitteeId": 818,
+      "recipientCommitteeId": 819,
       "officeSought": "City Council At-Large Seat B",
       "district": null,
       "ballotIssue": null,
@@ -101,7 +101,7 @@
       "transactionSubType": "Monetary",
       "recipientName": "Whitney Traylor",
       "recipientCommitteeName": "Traylor for Denver",
-      "recipientCommitteeId": 818,
+      "recipientCommitteeId": 819,
       "officeSought": "City Council At-Large Seat B",
       "district": null,
       "ballotIssue": null,
@@ -134,7 +134,7 @@
       "transactionSubType": "Monetary",
       "recipientName": "Whitney Traylor",
       "recipientCommitteeName": "Traylor for Denver",
-      "recipientCommitteeId": 818,
+      "recipientCommitteeId": 819,
       "officeSought": "City Council At-Large Seat B",
       "district": null,
       "ballotIssue": null,
@@ -167,7 +167,7 @@
       "transactionSubType": "Monetary",
       "recipientName": "Whitney Traylor",
       "recipientCommitteeName": "Traylor for Denver",
-      "recipientCommitteeId": 818,
+      "recipientCommitteeId": 819,
       "officeSought": "City Council At-Large Seat B",
       "district": null,
       "ballotIssue": null,
@@ -200,7 +200,7 @@
       "transactionSubType": "Monetary",
       "recipientName": "Whitney Traylor",
       "recipientCommitteeName": "Traylor for Denver",
-      "recipientCommitteeId": 818,
+      "recipientCommitteeId": 819,
       "officeSought": "City Council At-Large Seat B",
       "district": null,
       "ballotIssue": null,
@@ -233,7 +233,7 @@
       "transactionSubType": "Monetary",
       "recipientName": "Whitney Traylor",
       "recipientCommitteeName": "Traylor for Denver",
-      "recipientCommitteeId": 818,
+      "recipientCommitteeId": 819,
       "officeSought": "City Council At-Large Seat B",
       "district": null,
       "ballotIssue": null,
@@ -266,7 +266,7 @@
       "transactionSubType": "Monetary",
       "recipientName": "Whitney Traylor",
       "recipientCommitteeName": "Traylor for Denver",
-      "recipientCommitteeId": 818,
+      "recipientCommitteeId": 819,
       "officeSought": "City Council At-Large Seat B",
       "district": null,
       "ballotIssue": null,
@@ -299,7 +299,7 @@
       "transactionSubType": "Monetary",
       "recipientName": "Whitney Traylor",
       "recipientCommitteeName": "Traylor for Denver",
-      "recipientCommitteeId": 818,
+      "recipientCommitteeId": 819,
       "officeSought": "City Council At-Large Seat B",
       "district": null,
       "ballotIssue": null,
@@ -332,7 +332,7 @@
       "transactionSubType": "Monetary",
       "recipientName": "Whitney Traylor",
       "recipientCommitteeName": "Traylor for Denver",
-      "recipientCommitteeId": 818,
+      "recipientCommitteeId": 819,
       "officeSought": "City Council At-Large Seat B",
       "district": null,
       "ballotIssue": null,
@@ -365,7 +365,7 @@
       "transactionSubType": "Monetary",
       "recipientName": "Whitney Traylor",
       "recipientCommitteeName": "Traylor for Denver",
-      "recipientCommitteeId": 818,
+      "recipientCommitteeId": 819,
       "officeSought": "City Council At-Large Seat B",
       "district": null,
       "ballotIssue": null,
@@ -393,5 +393,5 @@
       "fefTransaction": false
     }
   ],
-  "totalRecords": 118765
+  "totalRecords": 119378
 }
