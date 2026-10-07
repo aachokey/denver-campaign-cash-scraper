@@ -1,11 +1,11 @@
 {
-  "totalContributionAmount": 78646780.236000,
-  "totalContributionCount": 121768,
+  "totalContributionAmount": 78646019.236000,
+  "totalContributionCount": 121757,
   "employeeContributions": {
-    "candidates": 16502349.640000,
+    "candidates": 16501588.640000,
     "ballotMeasures": 10993475.880000,
     "otherCommittees": 5725408.050000,
-    "total": 33221233.570000
+    "total": 33220472.570000
   },
   "organizationalContributions": {
     "candidates": 11960554.700000,
@@ -15,7 +15,7 @@
   },
   "contributionTypes": {
     "qualifyingContributions": 1378972.290000,
-    "monetaryContributions": 65517412.060000,
+    "monetaryContributions": 65516651.060000,
     "inKindContributions": 3722875.536000,
     "fairElectionFundDisbursements": 8027520.350000
   },
@@ -228,39 +228,6 @@
       "fefTransaction": true
     },
     {
-      "transactionId": 277530,
-      "transactionType": "Contribution",
-      "transactionSubType": "Monetary",
-      "recipientName": "Mike Johnston",
-      "recipientCommitteeName": "Mike Johnston for Mayor",
-      "recipientCommitteeId": 807,
-      "officeSought": "Mayor",
-      "district": null,
-      "ballotIssue": null,
-      "contributorName": "albus brooks",
-      "contributorId": 164287,
-      "amount": 250.000000,
-      "date": "2026-09-30T06:00:00",
-      "contributorEmployer": "Builder",
-      "contributorOccupation": "Milender White",
-      "contributorCity": "Denver",
-      "contributorStateCode": "CO",
-      "contactTypeId": 1,
-      "committeeTypeId": 1,
-      "transactionSubTypeId": 1,
-      "filerTypeId": 3,
-      "zipCode": "80205",
-      "address1": "1327 34th St",
-      "address2": null,
-      "contributorFirstName": "albus",
-      "contributorLastName": "brooks",
-      "committeeType": "Mike Johnston for Mayor",
-      "orgName": null,
-      "contributorMiddleName": null,
-      "txnPurpose": null,
-      "fefTransaction": true
-    },
-    {
       "transactionId": 278959,
       "transactionType": "Contribution",
       "transactionSubType": "Monetary",
@@ -288,6 +255,39 @@
       "contributorFirstName": "Albus",
       "contributorLastName": "Brooks",
       "committeeType": "Monica Martinez for Council",
+      "orgName": null,
+      "contributorMiddleName": null,
+      "txnPurpose": null,
+      "fefTransaction": true
+    },
+    {
+      "transactionId": 277530,
+      "transactionType": "Contribution",
+      "transactionSubType": "Monetary",
+      "recipientName": "Mike Johnston",
+      "recipientCommitteeName": "Mike Johnston for Mayor",
+      "recipientCommitteeId": 807,
+      "officeSought": "Mayor",
+      "district": null,
+      "ballotIssue": null,
+      "contributorName": "albus brooks",
+      "contributorId": 164287,
+      "amount": 250.000000,
+      "date": "2026-09-30T06:00:00",
+      "contributorEmployer": "Builder",
+      "contributorOccupation": "Milender White",
+      "contributorCity": "Denver",
+      "contributorStateCode": "CO",
+      "contactTypeId": 1,
+      "committeeTypeId": 1,
+      "transactionSubTypeId": 1,
+      "filerTypeId": 3,
+      "zipCode": "80205",
+      "address1": "1327 34th St",
+      "address2": null,
+      "contributorFirstName": "albus",
+      "contributorLastName": "brooks",
+      "committeeType": "Mike Johnston for Mayor",
       "orgName": null,
       "contributorMiddleName": null,
       "txnPurpose": null,
@@ -393,5 +393,5 @@
       "fefTransaction": true
     }
   ],
-  "totalRecords": 121768
+  "totalRecords": 121757
 }
